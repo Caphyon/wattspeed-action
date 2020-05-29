@@ -1,0 +1,13 @@
+name: 'Wattspeed'
+description: 'Trigger a snapshot generation via GitHub Actions'
+inputs:
+  token:  # id of input
+    description: 'Webpage Token'
+    required: true
+    default: ''
+outputs:
+  response: # id of output
+    description: 'Snapshot generation response'
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,0 +1,24 @@
+{
+  "name": "wattspeed-action",
+  "version": "1.0.0",
+  "description": "Triggers a snapshot generation via a GitHub action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caphyon/wattspeed-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caphyon/wattspeed-action/issues"
+  },
+  "homepage": "https://github.com/Caphyon/wattspeed-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0"
+  }
+}
