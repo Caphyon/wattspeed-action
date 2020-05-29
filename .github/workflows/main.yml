@@ -15,4 +15,4 @@ jobs:
         with:
           token: '6qQUdH1Ayk3fQTagxFPBBYafvcIgg26hdJ98rKGXtXAnClUNBCsbUXE1OOD9TixT'
       - name: Get the response
-        run: echo "The time was ${{ steps.test.outputs.response }}"
+        run: echo "The time was ${{ steps.hello.outputs.response }}"
