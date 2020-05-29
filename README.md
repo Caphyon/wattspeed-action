@@ -40,8 +40,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Wattspeed Action
-      # replace "master" with any valid ref
-      uses: caphyon/wattspeed-action@v1
+      uses: Caphyon/wattspeed-action@v1
       with:
         # [required]
         # Get the token from the webpage settings
